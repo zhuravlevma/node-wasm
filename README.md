@@ -8,6 +8,15 @@
 
 ## About
 
+## Test results
+
+### Average time of calculations for Matrix:
+#### WASM:  1ms   ⚡
+#### JS vanilla:  95.82
+### Average time of calculations for Fibonacci:
+#### WASM:  92  ⚡
+#### JS vanilla:  173.71428571428572
+
 
 ## 🚴 Usage
 
