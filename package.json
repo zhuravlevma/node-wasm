@@ -1,0 +1,16 @@
+{
+  "name": "test-nodejs",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "wasm-pack build --release --target nodejs",
+    "start": "npm run build && node node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
