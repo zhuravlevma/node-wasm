@@ -8,7 +8,7 @@ use quad_rand as qrand;
 static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 
 #[wasm_bindgen]
-pub fn calculate() -> i64 {
+pub fn matrix_rs() -> i64 {
     let matrix: [[i64; 13]; 39] =
         [
             [4, 6, 7, 8, 32, 5345, 66, 12, 545, 67, 654, 232, 654],
@@ -73,7 +73,7 @@ pub fn calculate() -> i64 {
 }
 
 #[wasm_bindgen]
-pub fn fibonacci(x: i32) -> f64 {
+pub fn fibonacci_rs(x: i32) -> f64 {
     if x == 0 {
         return 0_f64
     }
@@ -82,5 +82,5 @@ pub fn fibonacci(x: i32) -> f64 {
         return 1_f64
     }
 
-    return fibonacci(x - 1) + fibonacci(x - 2)
+    return fibonacci_rs(x - 1) + fibonacci_rs(x - 2)
 }

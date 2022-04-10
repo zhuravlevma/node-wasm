@@ -7,8 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "wasm-pack build --release --target nodejs",
-    "start": "npm run build && node node"
+    "start": "npm run build && node node/main.js",
+    "build": "wasm-pack build --release --target nodejs"
   },
   "keywords": [],
   "author": "",
